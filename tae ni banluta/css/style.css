@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #444654;
+    z-index: 999;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #fbfbfb;
+}
+
+.load {
+    width: 200px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+h3.tubig {
+    font-family: 'Alata', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+p.nice-credits {
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+
+body {
+    background-color: #444654;
+    margin: 2em 2em 2em 2em;
+}
+
+h1.title {
+    font-family: 'Alata', sans-serif;
+    color: #fff7f7;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+p.description-a {
+    font-family: 'Alata', sans-serif;
+    color: #fbfbfb;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+div.mga-pangalan {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.pangalan-container {
+    background-color: #343541;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px #1E1E1E solid;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    transition: transform .5s;
+    margin: 1em 1em 7em 1em;
+    transition: 250ms ease-in-out;
+
+}
+
+div.pangalan-container:hover {
+    border: 1px rgba(237, 110, 20, 0.918) solid;
+    box-shadow: 1px -1px 33px 0px rgba(237, 112, 20, 0.9);
+    -webkit-box-shadow: 1px -1px 33px 0px rgba(237, 112, 20, 0.9);
+    -moz-box-shadow: 1px -1px 33px 0px rgba(237, 112, 20, 0.9);
+    transform: scale(1.1);
+}
+
+img.mukha {
+    border-radius: 50%;
+    border: 1px #1E1E1E solid;
+    background-color: #2e2f39;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+
+h2.h2wo {
+    text-decoration: none;
+    color: #ed6e14;
+    font-family: 'Alata', sans-serif;
+}
+
+p.description-b {
+    color: gainsboro;
+    font-family: 'Ubuntu Mono', monospace;
+}
